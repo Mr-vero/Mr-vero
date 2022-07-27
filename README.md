@@ -1,4 +1,4 @@
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Tanu-N-Prabhu&show_icons=true)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Mr-vero&show_icons=true)
 
 - 👋 Hi, I’m @Mr-vero
 - 👀 I’m interested in hybrid technology, artificial intelligence and basicaly anything technology
