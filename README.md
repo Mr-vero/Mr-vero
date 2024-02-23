@@ -3,14 +3,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mr-vero" alt="mr-vero" /></a> </p>
 
-# Hello World!
-
-- 👋 Hi, I’m @Mr-vero
-- 👀 I’m interested in hybrid technology, artificial intelligence and basicaly anything technology
-- 🌱 I’m currently learning to speak Italian
-- 💞️ I’m looking to collaborate on anything as long as it bring positive impact
-- 📫 Reach me by email at Mr.vero@usa.com
-- 
+- 👁️ Enthusiast of hybrid technology, artificial intelligence, and all facets of cutting-edge technology.
+- 🌱 Engaged in the pursuit of linguistic finesse through the acquisition of the Italian language.
+- 💞️ Open to meaningful collaborations that contribute positively to society.
+- 📫 Contact me via email at Mr.vero@usa.com for professional inquiries and discussions.
+  
 ```tsx
 /**
  * @fileoverview
