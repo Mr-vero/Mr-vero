@@ -1,79 +1,25 @@
-```tsx
-/**
- * @fileoverview
- * 
- * Developer: Mr-vero
- * GitHub: https://github.com/Mr-vero
- * Interests: Hybrid Technology, Artificial Intelligence, All things tech
- * Learning: Italian
- * Collaboration Criteria: Positive Impact
- */
+<h1 align="center">Hi 👋, I'm Irvan</h1>
+<h3 align="center">A passionate frontend developer from India</h3>
 
-/**
- * Developer class representing a coding enthusiast.
- */
-class Developer {
-    /**
-     * GitHub username of the developer.
-     * @type {string}
-     */
-    private username: string;
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mr-vero&label=Profile%20views&color=0e75b6&style=flat" alt="mr-vero" /> </p>
 
-    /**
-     * Array of developer interests.
-     * @type {string[]}
-     */
-    private interests: string[];
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mr-vero" alt="mr-vero" /></a> </p>
 
-    /**
-     * Current learning focus.
-     * @type {string}
-     */
-    private learning: string;
+<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-    /**
-     * Criteria for collaboration.
-     * @type {string}
-     */
-    private collaborationCriteria: string;
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-    /**
-     * Constructor for the Developer class.
-     * @param {string} username - The GitHub username of the developer.
-     */
-    constructor(username: string) {
-        this.username = username;
-        this.interests = ["Hybrid Technology", "Artificial Intelligence", "All things tech"];
-        this.learning = "Italian";
-        this.collaborationCriteria = "Positive Impact";
-    }
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://gulpjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> </a> <a href="https://www.haskell.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg" alt="haskell" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.perl.org/" target="_blank" rel="noreferrer"> <img src="https://api.iconify.design/logos-perl.svg" alt="perl" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> </p>
 
-    /**
-     * Method providing a detailed introduction.
-     * @returns {string} - Introduction string.
-     */
-    aboutMe(): string {
-        return `
-        👋 Hello, I'm ${this.username} - a passionate coder exploring the vast realms of technology.
-        🚀 My GitHub: [${this.username}](https://github.com/${this.username})
-        
-        💡 Interests: ${this.interests.join(', ')}
-        📚 Currently mastering the art of speaking ${this.learning}.
-        🌟 Eagerly seeking collaborations aligned with my criteria for creating ${this.collaborationCriteria}.
-        `;
-    }
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mr-vero&show_icons=true&locale=en&layout=compact" alt="mr-vero" /></p>
 
-    /**
-     * Method providing contact information.
-     * @returns {string} - Contact information.
-     */
-    contactMe(): string {
-        return `Connect with me via email: ${this.username}@usa.com`;
-    }
-}
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mr-vero&show_icons=true&locale=en" alt="mr-vero" /></p>
 
-const mrVero: Developer = new Developer("@Mr-vero");
-```
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mr-vero&" alt="mr-vero" /></p>
+
 
 ### My Most Used Languages
   ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-vero&theme=blue-green)
