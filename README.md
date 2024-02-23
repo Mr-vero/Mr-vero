@@ -54,13 +54,12 @@ class Developer {
      */
     aboutMe(): string {
         return `
-        Hello, I'm ${this.username} - a passionate coder exploring the vast realms of technology.
-        My GitHub handle is ${this.username}. I navigate through a sophisticated fusion of ${this.interests.join(', ')}.
-
-        Currently mastering the art of speaking ${this.learning}.
-
-        Eagerly seeking collaborations aligned with my criteria for creating ${this.collaborationCriteria}.
-        Let's script the future together! 🚀✨
+        👋 Hello, I'm ${this.username} - a passionate coder exploring the vast realms of technology.
+        🚀 My GitHub: [${this.username}](https://github.com/${this.username})
+        
+        💡 Interests: ${this.interests.join(', ')}
+        📚 Currently mastering the art of speaking ${this.learning}.
+        🌟 Eagerly seeking collaborations aligned with my criteria for creating ${this.collaborationCriteria}.
         `;
     }
 
