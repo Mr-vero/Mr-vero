@@ -1,31 +1,79 @@
-```python
-from __future__ import annotations
+```typescript
+/**
+ * @fileoverview
+ * 
+ * Developer: Mr-vero
+ * GitHub: https://github.com/Mr-vero
+ * Interests: Hybrid Technology, Artificial Intelligence, All things tech
+ * Learning: Italian
+ * Collaboration Criteria: Positive Impact
+ */
 
-class Developer:
-    def __init__(self, username: str) -> None:
-        self.username = username
-        self.interests = ["Hybrid Technology", "Artificial Intelligence", "All things tech"]
-        self.learning = "Italian"
-        self.collaboration_criteria = "Positive Impact"
+/**
+ * Developer class representing a coding enthusiast.
+ */
+class Developer {
+    /**
+     * GitHub username of the developer.
+     * @type {string}
+     */
+    private username: string;
 
-    def about_me(self) -> str:
-        return f"""
-        # Greetings, fellow coders! I am {self.username}, a proficient navigator in the realms of code and algorithms.
-        # My interests encompass a sophisticated fusion of {', '.join(self.interests)}.
+    /**
+     * Array of developer interests.
+     * @type {string[]}
+     */
+    private interests: string[];
 
-        # Engaged in the nuanced art of mastering {self.learning} at the moment.
+    /**
+     * Current learning focus.
+     * @type {string}
+     */
+    private learning: string;
 
-        # Eagerly seeking collaborations aligned with my criteria for creating {self.collaboration_criteria}.
-        # Let's script the future together! 🚀✨
-        """
+    /**
+     * Criteria for collaboration.
+     * @type {string}
+     */
+    private collaborationCriteria: string;
 
-    def contact_me(self) -> str:
-        return f"# Connect with me via email: Mr.vero@usa.com"
+    /**
+     * Constructor for the Developer class.
+     * @param {string} username - The GitHub username of the developer.
+     */
+    constructor(username: string) {
+        this.username = username;
+        this.interests = ["Hybrid Technology", "Artificial Intelligence", "All things tech"];
+        this.learning = "Italian";
+        this.collaborationCriteria = "Positive Impact";
+    }
 
-mr_vero: Developer = Developer(username="@Mr-vero")
+    /**
+     * Method providing a detailed introduction.
+     * @returns {string} - Introduction string.
+     */
+    aboutMe(): string {
+        return `
+        // Hello, I'm ${this.author} - a passionate coder exploring the vast realms of technology.
+        // My GitHub handle is ${this.username}. I navigate through a sophisticated fusion of ${this.interests.join(', ')}.
 
-print(mr_vero.about_me())
-print(mr_vero.contact_me())
+        // Currently mastering the art of speaking ${this.learning}.
+
+        // Eagerly seeking collaborations aligned with my criteria for creating ${this.collaborationCriteria}.
+        // Let's script the future together! 🚀✨
+        `;
+    }
+
+    /**
+     * Method providing contact information.
+     * @returns {string} - Contact information.
+     */
+    contactMe(): string {
+        return `// Connect with me via email: ${this.author}@usa.com`;
+    }
+}
+
+const mrVero: Developer = new Developer("@Mr-vero");
 ```
 
 ### My Most Used Languages
