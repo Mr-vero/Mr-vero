@@ -1,10 +1,33 @@
-# Hello World!
+```
+from __future__ import annotations
 
-- 👋 Hi, I’m @Mr-vero
-- 👀 I’m interested in hybrid technology, artificial intelligence and basicaly anything technology
-- 🌱 I’m currently learning to speak Italian
-- 💞️ I’m looking to collaborate on anything as long as it bring positive impact
-- 📫 Reach me by email at Mr.vero@usa.com
+class Developer:
+    def __init__(self, username: str) -> None:
+        self.username = username
+        self.interests = ["Hybrid Technology", "Artificial Intelligence", "All things tech"]
+        self.learning = "Italian"
+        self.collaboration_criteria = "Positive Impact"
+
+    def about_me(self) -> str:
+        return f"""
+        # Greetings, fellow coders! I am {self.username}, a proficient navigator in the realms of code and algorithms.
+        # My interests encompass a sophisticated fusion of {', '.join(self.interests)}.
+
+        # Engaged in the nuanced art of mastering {self.learning} at the moment.
+
+        # Eagerly seeking collaborations aligned with my criteria for creating {self.collaboration_criteria}.
+        # Let's script the future together! 🚀✨
+        """
+
+    def contact_me(self) -> str:
+        return f"# Connect with me via email: Mr.vero@usa.com"
+
+mr_vero: Developer = Developer(username="@Mr-vero")
+
+print(mr_vero.about_me())
+print(mr_vero.contact_me())
+```
+
 ### My Most Used Languages
   ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-vero&theme=blue-green)
 
