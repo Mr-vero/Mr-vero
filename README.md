@@ -4,7 +4,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mr-vero" alt="mr-vero" /></a> </p>
 
 - 👁️ Enthusiast of hybrid technology, artificial intelligence, and all facets of cutting-edge technology.
-- 🌱 Engaged in the pursuit of linguistic finesse through the acquisition of the Italian language.
+- 🌱 Engaged in the pursuit of linguistic finesse through the acquisition of the Korean language.
 - 💞️ Open to meaningful collaborations that contribute positively to society.
 - 📫 Contact me via email at Mr.vero@usa.com for professional inquiries and discussions.
   
