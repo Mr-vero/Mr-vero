@@ -115,9 +115,9 @@ A six-chapter, story-driven adventure for the mobile web. Every visual is drawn 
 
 ## Toolbox
 
-**Languages:** TypeScript · JavaScript · Python · Swift · Kotlin · PHP · Ruby · Objective-C
-**AI:** RAG · hybrid search · reranking · LLM evaluation · agents · voice AI · Claude · MediaPipe
-**Platforms:** macOS (SwiftUI, AppKit) · Android (CameraX, IME) · Web (PWA, Canvas, Web Audio) · Node.js APIs
+**Languages:** TypeScript · JavaScript · Python · Swift · Kotlin · PHP · Ruby · Objective-C<br>
+**AI:** RAG · hybrid search · reranking · LLM evaluation · agents · voice AI · Claude · MediaPipe<br>
+**Platforms:** macOS (SwiftUI, AppKit) · Android (CameraX, IME) · Web (PWA, Canvas, Web Audio) · Node.js APIs<br>
 **Data and infra:** PostgreSQL · pgvector · SQLite FTS5 · GitHub Actions · Vercel · GitHub Pages
 
 ## Ten years of building
