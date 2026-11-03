@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="380" viewBox="0 0 620 380" role="img" aria-label="clippy: Copy once, keep forever. A glass clipboard manager with unlimited history and paste right at your text cursor. The hard part: Zero dependencies and zero network calls in about 1 MB, Universal Clipboard retry logic, and conflict-free iCloud sync built on per-device journals and tombstones.">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0D9488"/><stop offset="0.55" stop-color="#7C3AED"/><stop offset="1" stop-color="#D97706"/>
+  </linearGradient>
+  <linearGradient id="gv" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#0D9488"/><stop offset="0.6" stop-color="#7C3AED"/><stop offset="1" stop-color="#D97706"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#0F172A" stroke-opacity="0.05"/>
+  </pattern>
+  <radialGradient id="glow_a"><stop offset="0" stop-color="#0D9488" stop-opacity="0.18"/><stop offset="1" stop-color="#0D9488" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow_b"><stop offset="0" stop-color="#7C3AED" stop-opacity="0.18"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow_c"><stop offset="0" stop-color="#D97706" stop-opacity="0.18"/><stop offset="1" stop-color="#D97706" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip"><rect width="620" height="380" rx="18"/></clipPath>
+  <style>
+    .mono{font:500 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#64748B}
+    .eyebrow{font:600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#64748B;letter-spacing:1.5px;text-transform:uppercase}
+    .accent{font:700 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7C3AED;letter-spacing:1.5px;text-transform:uppercase}
+    .name{font:800 76px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;letter-spacing:-2.5px}
+    .h2{font:750 40px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A;letter-spacing:-1px}
+    .title{font:800 36px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;letter-spacing:-1px}
+    .head{font:650 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A;letter-spacing:-0.5px}
+    .sub{font:400 19px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#475569}
+    .body{font:400 16.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A}
+    .small{font:400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#475569}
+    .strong{font:650 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A}
+    .chip{font:500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#475569}
+    .pill{font:700 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:1px;text-transform:uppercase}
+    .stage{font:600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#475569;letter-spacing:0.5px;text-transform:uppercase}
+    .num{font:750 26px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A;letter-spacing:-0.5px}
+    .bignum{font:800 64px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;letter-spacing:-2px}
+    .lbl{font:400 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#475569}
+    .caret{animation:blink 1.1s steps(1) infinite}
+    .flow{stroke-dasharray:6 10;animation:flow 1.6s linear infinite}
+    .n{animation:pulse 3.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .glow{animation:drift 12s ease-in-out infinite alternate}
+    .rise{transform-box:fill-box;transform-origin:bottom;animation:rise 1.4s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes flow{to{stroke-dashoffset:-32}}
+    @keyframes pulse{0%,70%,100%{transform:scale(1)}35%{transform:scale(2.2)}}
+    @keyframes drift{to{transform:translate(-60px,30px)}}
+    @keyframes rise{from{transform:scaleY(0)}}
+    
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="620" height="380" fill="#FAFBFD"/>
+<rect width="620" height="380" fill="url(#grid)"/>
+<circle class="glow" cx="589" cy="19" r="230" fill="url(#glow_b)" style="animation-delay:0s"/><circle class="glow" cx="31" cy="418" r="160" fill="url(#glow_a)" style="animation-delay:-6s"/>
+
+<text x="40" y="56" class="eyebrow"><tspan style="fill:#7C3AED">07</tspan>  /  macOS utility</text>
+<rect x="424.4" y="36" width="155.6" height="28" rx="14" fill="#FFFFFF" stroke="url(#g)"/>
+<circle cx="439.4" cy="50" r="3.5" fill="#0D9488" class="n"/>
+<text x="449.4" y="54.5" class="pill" fill="#0F172A">~1 MB · 0 deps</text>
+<text x="38" y="104" class="title" fill="url(#g)">clippy</text>
+<text x="40" y="140" class="body"><tspan x="40" dy="0.0">Copy once, keep forever. A glass clipboard manager with</tspan><tspan x="40" dy="24.8">unlimited history and paste right at your text cursor.</tspan></text>
+<text x="40" y="205" class="accent">▸ The hard part</text>
+<text x="40" y="230.75" class="small"><tspan x="40" dy="0.0">Zero dependencies and zero network calls in about 1 MB, Universal</tspan><tspan x="40" dy="21.7">Clipboard retry logic, and conflict-free iCloud sync built on per-device</tspan><tspan x="40" dy="21.7">journals and tombstones.</tspan></text>
+<rect x="40.0" y="327" width="77.5" height="27" rx="7" fill="#FFFFFF" stroke="#E2E8F0"/><text x="51.0" y="346" class="chip">Swift 6</text><rect x="125.5" y="327" width="69.6" height="27" rx="7" fill="#FFFFFF" stroke="#E2E8F0"/><text x="136.5" y="346" class="chip">AppKit</text><rect x="203.1" y="327" width="69.6" height="27" rx="7" fill="#FFFFFF" stroke="#E2E8F0"/><text x="214.1" y="346" class="chip">iCloud</text><rect x="280.7" y="327" width="164.7" height="27" rx="7" fill="#FFFFFF" stroke="#E2E8F0"/><text x="291.7" y="346" class="chip">Conflict-free sync</text>
+</g>
+<rect x="0.5" y="0.5" width="619" height="379" rx="18" fill="none" stroke="#E2E8F0"/>
+</svg>

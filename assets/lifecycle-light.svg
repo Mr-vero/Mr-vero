@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="How I work end to end: product, architecture, build, test, security, ship, operate.">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0D9488"/><stop offset="0.55" stop-color="#7C3AED"/><stop offset="1" stop-color="#D97706"/>
+  </linearGradient>
+  <linearGradient id="gv" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#0D9488"/><stop offset="0.6" stop-color="#7C3AED"/><stop offset="1" stop-color="#D97706"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#0F172A" stroke-opacity="0.05"/>
+  </pattern>
+  <radialGradient id="glow_a"><stop offset="0" stop-color="#0D9488" stop-opacity="0.18"/><stop offset="1" stop-color="#0D9488" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow_b"><stop offset="0" stop-color="#7C3AED" stop-opacity="0.18"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow_c"><stop offset="0" stop-color="#D97706" stop-opacity="0.18"/><stop offset="1" stop-color="#D97706" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip"><rect width="1280" height="400" rx="18"/></clipPath>
+  <style>
+    .mono{font:500 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#64748B}
+    .eyebrow{font:600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#64748B;letter-spacing:1.5px;text-transform:uppercase}
+    .accent{font:700 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7C3AED;letter-spacing:1.5px;text-transform:uppercase}
+    .name{font:800 76px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;letter-spacing:-2.5px}
+    .h2{font:750 40px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A;letter-spacing:-1px}
+    .title{font:800 36px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;letter-spacing:-1px}
+    .head{font:650 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A;letter-spacing:-0.5px}
+    .sub{font:400 19px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#475569}
+    .body{font:400 16.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A}
+    .small{font:400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#475569}
+    .strong{font:650 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A}
+    .chip{font:500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#475569}
+    .pill{font:700 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:1px;text-transform:uppercase}
+    .stage{font:600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#475569;letter-spacing:0.5px;text-transform:uppercase}
+    .num{font:750 26px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#0F172A;letter-spacing:-0.5px}
+    .bignum{font:800 64px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;letter-spacing:-2px}
+    .lbl{font:400 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#475569}
+    .caret{animation:blink 1.1s steps(1) infinite}
+    .flow{stroke-dasharray:6 10;animation:flow 1.6s linear infinite}
+    .n{animation:pulse 3.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .glow{animation:drift 12s ease-in-out infinite alternate}
+    .rise{transform-box:fill-box;transform-origin:bottom;animation:rise 1.4s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes flow{to{stroke-dashoffset:-32}}
+    @keyframes pulse{0%,70%,100%{transform:scale(1)}35%{transform:scale(2.2)}}
+    @keyframes drift{to{transform:translate(-60px,30px)}}
+    @keyframes rise{from{transform:scaleY(0)}}
+    
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1280" height="400" fill="#FAFBFD"/>
+<rect width="1280" height="400" fill="url(#grid)"/>
+<circle class="glow" cx="1178" cy="40" r="280" fill="url(#glow_b)" style="animation-delay:0s"/><circle class="glow" cx="128" cy="420" r="220" fill="url(#glow_a)" style="animation-delay:-6s"/>
+
+<text x="72" y="58" class="eyebrow"><tspan style="fill:#7C3AED">02</tspan>  ──  How I work</text>
+<text x="70" y="102" class="h2" style="font-size:34px">Every stage, owned. Every claim, linked.</text>
+<line x1="72" y1="132" x2="1045.7142857142858" y2="132" stroke="#E2E8F0" stroke-width="2"/><line x1="72" y1="132" x2="1045.7142857142858" y2="132" stroke="url(#g)" stroke-width="2" class="flow"/><circle r="5" fill="#D97706"><animateMotion dur="7s" repeatCount="indefinite" path="M72,132 H1045.7142857142858"/></circle><circle cx="72.0" cy="132" r="7" fill="#FAFBFD" stroke="url(#g)" stroke-width="2.5"/><circle cx="72.0" cy="132" r="2.5" fill="url(#g)" class="n" style="animation-delay:0.0s"/><circle cx="234.3" cy="132" r="7" fill="#FAFBFD" stroke="url(#g)" stroke-width="2.5"/><circle cx="234.3" cy="132" r="2.5" fill="url(#g)" class="n" style="animation-delay:0.5s"/><circle cx="396.6" cy="132" r="7" fill="#FAFBFD" stroke="url(#g)" stroke-width="2.5"/><circle cx="396.6" cy="132" r="2.5" fill="url(#g)" class="n" style="animation-delay:1.0s"/><circle cx="558.9" cy="132" r="7" fill="#FAFBFD" stroke="url(#g)" stroke-width="2.5"/><circle cx="558.9" cy="132" r="2.5" fill="url(#g)" class="n" style="animation-delay:1.5s"/><circle cx="721.1" cy="132" r="7" fill="#FAFBFD" stroke="url(#g)" stroke-width="2.5"/><circle cx="721.1" cy="132" r="2.5" fill="url(#g)" class="n" style="animation-delay:2.0s"/><circle cx="883.4" cy="132" r="7" fill="#FAFBFD" stroke="url(#g)" stroke-width="2.5"/><circle cx="883.4" cy="132" r="2.5" fill="url(#g)" class="n" style="animation-delay:2.5s"/><circle cx="1045.7" cy="132" r="7" fill="#FAFBFD" stroke="url(#g)" stroke-width="2.5"/><circle cx="1045.7" cy="132" r="2.5" fill="url(#g)" class="n" style="animation-delay:3.0s"/>
+<text x="72.0" y="166" class="strong">Product</text><text x="72.0" y="196" class="small"><tspan x="72.0" dy="0.0">Find the real</tspan><tspan x="72.0" dy="21.0">problem, cut scope,</tspan><tspan x="72.0" dy="21.0">write docs people</tspan><tspan x="72.0" dy="21.0">use.</tspan></text><line x1="72.0" y1="300" x2="100.0" y2="300" stroke="url(#g)" stroke-width="2"/><text x="72.0" y="330" class="chip"><tspan x="72.0" dy="0.0">Every README opens</tspan><tspan x="72.0" dy="18.1">with why</tspan></text><text x="234.3" y="166" class="strong">Architecture</text><text x="234.28571428571428" y="196" class="small"><tspan x="234.28571428571428" dy="0.0">Pick the boring</tspan><tspan x="234.28571428571428" dy="21.0">tool when it wins.</tspan><tspan x="234.28571428571428" dy="21.0">Write down the</tspan><tspan x="234.28571428571428" dy="21.0">trade-offs.</tspan></text><line x1="234.3" y1="300" x2="262.3" y2="300" stroke="url(#g)" stroke-width="2"/><text x="234.28571428571428" y="330" class="chip"><tspan x="234.28571428571428" dy="0.0">audit-rag: six</tspan><tspan x="234.28571428571428" dy="18.1">decisions</tspan></text><text x="396.6" y="166" class="strong">Build</text><text x="396.57142857142856" y="196" class="small"><tspan x="396.57142857142856" dy="0.0">Swift, Kotlin,</tspan><tspan x="396.57142857142856" dy="21.0">TypeScript, Python.</tspan><tspan x="396.57142857142856" dy="21.0">My own frameworks</tspan><tspan x="396.57142857142856" dy="21.0">when nothing fits.</tspan></text><line x1="396.6" y1="300" x2="424.6" y2="300" stroke="url(#g)" stroke-width="2"/><text x="396.57142857142856" y="330" class="chip"><tspan x="396.57142857142856" dy="0.0">Framework-F ·</tspan><tspan x="396.57142857142856" dy="18.1">Commuter</tspan></text><text x="558.9" y="166" class="strong">Test</text><text x="558.8571428571429" y="196" class="small"><tspan x="558.8571428571429" dy="0.0">CI on every push,</tspan><tspan x="558.8571428571429" dy="21.0">eval harnesses with</tspan><tspan x="558.8571428571429" dy="21.0">quality gates,</tspan><tspan x="558.8571428571429" dy="21.0">ablations.</tspan></text><line x1="558.9" y1="300" x2="586.9" y2="300" stroke="url(#g)" stroke-width="2"/><text x="558.8571428571429" y="330" class="chip"><tspan x="558.8571428571429" dy="0.0">audit-rag eval</tspan><tspan x="558.8571428571429" dy="18.1">gate</tspan></text><text x="721.1" y="166" class="strong">Security</text><text x="721.1428571428571" y="196" class="small"><tspan x="721.1428571428571" dy="0.0">Threat-model first:</tspan><tspan x="721.1428571428571" dy="21.0">E2E encryption,</tspan><tspan x="721.1428571428571" dy="21.0">tenant isolation,</tspan><tspan x="721.1428571428571" dy="21.0">rate limits.</tspan></text><line x1="721.1" y1="300" x2="749.1" y2="300" stroke="url(#g)" stroke-width="2"/><text x="721.1428571428571" y="330" class="chip"><tspan x="721.1428571428571" dy="0.0">hop PROTOCOL.md</tspan></text><text x="883.4" y="166" class="strong">Ship</text><text x="883.4285714285713" y="196" class="small"><tspan x="883.4285714285713" dy="0.0">Versioned releases,</tspan><tspan x="883.4285714285713" dy="21.0">installable PWAs,</tspan><tspan x="883.4285714285713" dy="21.0">landing pages,</tspan><tspan x="883.4285714285713" dy="21.0">packages.</tspan></text><line x1="883.4" y1="300" x2="911.4" y2="300" stroke="url(#g)" stroke-width="2"/><text x="883.4285714285713" y="330" class="chip"><tspan x="883.4285714285713" dy="0.0">hop v1.1.0 · npm</tspan></text><text x="1045.7" y="166" class="strong">Operate</text><text x="1045.7142857142858" y="196" class="small"><tspan x="1045.7142857142858" dy="0.0">Performance</tspan><tspan x="1045.7142857142858" dy="21.0">budgets, abuse</tspan><tspan x="1045.7142857142858" dy="21.0">protection, honest</tspan><tspan x="1045.7142857142858" dy="21.0">data licensing.</tspan></text><line x1="1045.7" y1="300" x2="1073.7" y2="300" stroke="url(#g)" stroke-width="2"/><text x="1045.7142857142858" y="330" class="chip"><tspan x="1045.7142857142858" dy="0.0">produkpos ~1 ms</tspan><tspan x="1045.7142857142858" dy="18.1">queries</tspan></text>
+</g>
+<rect x="0.5" y="0.5" width="1279" height="399" rx="18" fill="none" stroke="#E2E8F0"/>
+</svg>
