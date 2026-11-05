@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Send me the hardest problem on your roadmap. Mr.vero@usa.com. Open to full-time roles.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="See how I work, concept to live. irvan-fahlepi.vercel.app. Open to full-time roles.">
 <defs>
   <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#5EEAD4"/><stop offset="0.55" stop-color="#A78BFA"/><stop offset="1" stop-color="#FBBF24"/>
@@ -51,10 +51,10 @@
 <circle class="glow" cx="1126" cy="90" r="320" fill="url(#glow_b)" style="animation-delay:0s"/><circle class="glow" cx="768" cy="360" r="240" fill="url(#glow_c)" style="animation-delay:-6s"/>
 
 <text x="72" y="70" class="mono">irvan@build:~$ <tspan fill="#F1F5F9">open --to full-time-roles</tspan><tspan class="caret" fill="#5EEAD4"> ▍</tspan></text>
-<text x="68" y="146" class="name" style="font-size:54px;letter-spacing:-1.5px" fill="url(#g)">Send me the hardest problem</text>
-<text x="70" y="200" class="h2" style="font-size:38px">on your roadmap.</text>
+<text x="68" y="146" class="name" style="font-size:54px;letter-spacing:-1.5px" fill="url(#g)">See how I work,</text>
+<text x="70" y="200" class="h2" style="font-size:38px">concept to live.</text>
 <rect x="72" y="228" width="300" height="44" rx="22" fill="url(#g)"/>
-<text x="222" y="256" text-anchor="middle" class="pill" fill="#FFFFFF" style="font-size:14px">Mr.vero@usa.com  →</text>
+<text x="222" y="256" text-anchor="middle" class="pill" fill="#FFFFFF" style="font-size:14px">irvan-fahlepi.vercel.app  →</text>
 <text x="396" y="256" class="lbl">One owner, idea to production. Open to full-time roles.</text>
 </g>
 <rect x="0.5" y="0.5" width="1279" height="299" rx="18" fill="none" stroke="#1E293B"/>

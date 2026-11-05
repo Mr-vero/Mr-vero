@@ -1,6 +1,6 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Irvan: one engineer, the whole product lifecycle. 10+ years shipping, 6,400+ contributions, 360+ repositories, 8 languages, 5 platforms."></picture>
 
-I take products from a blank page to production by myself: product thinking, system design, code on every layer, testing, security, release and operation. I've done it since 2015, starting with my own [PHP](https://github.com/Mr-vero/Framework-F) and [Ruby](https://github.com/Mr-vero/Commuter) web frameworks. **If it can be imagined, I can build it.** Every card below opens the real project.
+I'm a senior full-stack developer who loves building with AI. I take products from a blank page to production by myself: product thinking, system design, code on every layer, testing, security, release and operation. Lately that means games: [PingPlay](https://getpingplay.com/play/feed), a feed of 70 playable HTML5 games made with Forge, my own game build tool. I've shipped since 2015, starting with my own [PHP](https://github.com/Mr-vero/Framework-F) and [Ruby](https://github.com/Mr-vero/Commuter) web frameworks. **If it can be imagined, I can build it.** Every card below opens the real project.
 
 <br>
 
@@ -39,4 +39,4 @@ I take products from a blank page to production by myself: product thinking, sys
 
 <br>
 
-<a href="mailto:Mr.vero@usa.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cta-dark.svg"><img src="assets/cta-light.svg" width="100%" alt="Send me the hardest problem on your roadmap: Mr.vero@usa.com. Open to full-time roles."></picture></a>
+<a href="https://irvan-fahlepi.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cta-dark.svg"><img src="assets/cta-light.svg" width="100%" alt="See how I work, concept to live: irvan-fahlepi.vercel.app. Open to full-time roles."></picture></a>
